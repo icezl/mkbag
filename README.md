@@ -1,6 +1,8 @@
-请把开发包放在app文件架内:
-运行mkbag start 来收集app包内结构
-初始化包架构
+新建一个app文件夹在根目录
+复制前端代码进app文件夹
+运行node ./bin/mkbag start 来开启开发模式
+
+目前文件架构只支持以下方式
 html    ./app/
 sass    ./app/sass
 less    ./app/less
@@ -9,7 +11,7 @@ js      ./app/js
 img     ./app/img
 
 
-运行mkbag pack 来打包整个项目至dist文件夹下
+运行node ./bin/mkbag start pack 来打包整个项目至dist文件夹下
 
 pack 可选参数
 -j  只打包js
