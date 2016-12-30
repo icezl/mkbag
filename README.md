@@ -1,3 +1,7 @@
+请下载git包使用
+https://github.com/icezl/mkbag.git
+
+
 新建一个app文件夹在根目录
 复制前端代码进app文件夹
 运行node ./bin/mkbag start 来开启开发模式
