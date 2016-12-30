@@ -1,6 +1,6 @@
 {
   "name": "mkbag",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "前端livereload+打包",
   "main": "index.js",
   "bin": {

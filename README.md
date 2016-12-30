@@ -1,6 +1,8 @@
 请下载git包使用
 https://github.com/icezl/mkbag.git
 
+npm install
+
 
 新建一个app文件夹在根目录
 复制前端代码进app文件夹
