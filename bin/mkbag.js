@@ -44,6 +44,10 @@ if (command === 'start') {
             alias: 'img',
             describe: '转换img'
         })
+        .option('m', {
+            alias: 'html',
+            describe: '转换html'
+        })
         .option('p', {
             alias: 'path',
             describe: '输出目录'
@@ -55,6 +59,7 @@ if (command === 'start') {
         .example('mkbag pack -l', '只打包当前目录下的less文件')
         .example('mkbag pack -j', '只打包当前目录下的js文件')
         .example('mkbag pack -i', '只打包当前目录下的img文件')
+        .example('mkbag pack -m', '只打包当前目录下的html文件')
         .example('mkbag pack -p ./output', '指定打包输出目录')
         .example('mkbag pack -s -p ./output', '只打包当前目录下的sass文件到output文件夹')
         .help("h")
