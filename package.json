@@ -1,6 +1,6 @@
 {
   "name": "mkbag",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "前端livereload+打包",
   "main": "index.js",
   "bin": {
@@ -13,7 +13,6 @@
   ],
   "author": "linkzchina",
   "license": "ISC",
-  "devDependencies": {},
   "dependencies": {
     "browser-sync": "^2.18.5",
     "gulp": "^3.9.1",
@@ -27,6 +26,7 @@
     "gulp-sourcemaps": "^1.9.1",
     "gulp-uglify": "^2.0.0",
     "imagemin-pngquant": "^5.0.0",
-    "yargs": "^6.5.0"
+    "yargs": "^6.5.0",
+    "gulp-file-include": "^1.0.0"
   }
 }

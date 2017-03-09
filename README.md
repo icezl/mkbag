@@ -1,29 +1,19 @@
-请下载git包使用
-https://github.com/icezl/mkbag.git
+编辑目录 ./app
+输出目录 ./dist
 
-npm install
+sass,less必须要放进./app/sass ./app/less
 
+使用流程:
+命令行至根目录
+运行  npm install    安装插件
+运行  node ./bin/mkbag start    进入编辑模式
 
-新建一个app文件夹在根目录
-复制前端代码进app文件夹
-运行node ./bin/mkbag start 来开启开发模式
+实际看到的效果为dist内文件展示
 
-目前文件架构只支持以下方式
-html    ./app/
-sass    ./app/sass
-less    ./app/less
-css     ./app/css
-js      ./app/js
-img     ./app/img
+文件监控只做了增改配置,如有删除文件,直接删除dist文件夹
+重新运行start命令,也可以手动至dist包内删除
 
 
-运行node ./bin/mkbag start pack 来打包整个项目至dist文件夹下
+单纯打包 运行 node ./bin/mkbag pack
 
-pack 可选参数
--j  只打包js
--c  只打包css
--s  只打包sass
--l  只打包less
--i  只打包img
--h  只打包html
--h  打包目录地址/默认为dist文件夹下
+
